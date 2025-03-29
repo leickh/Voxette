@@ -34,7 +34,7 @@ Pointer Asterisk placement:
 
 ```C
 char * repeat_string(
-    char *string
+    char *string,
     int32_t repetitions
 ) {
     // ...
