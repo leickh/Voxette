@@ -1,0 +1,7 @@
+
+# Local Convenience folder to withhold data
+.private/
+
+# Build result folder
+.build/
+
