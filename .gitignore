@@ -1,0 +1,22 @@
+
+# Local Convenience folder to withhold data
+.private/
+
+# Common Object file endings
+
+# Unixoid / ELF-based
+*.a
+*.elf
+*.o
+*.so
+
+# Windows NT / COFF->PE
+*.dll
+*.exe
+*.lib
+
+# Zig build files
+.zig-cache/
+zig-out/
+
+
