@@ -1,0 +1,12 @@
+.{
+    .name = .Voxette3D,
+    .version = "0.1.0",
+    .fingerprint = 0x4afd0656fe0c5847,
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src-zig",
+        "README.md",
+    },
+}
