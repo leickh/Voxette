@@ -19,6 +19,12 @@ pub fn build(build_process: *std.Build) void {
         .root_module = library_mod,
     });
 
+    const zgl_dependency = build_process.dependency("zgl", .{});
+    library_mod.addImport("zgl", zgl_dependency.module("zgl"));
+
+    const sdl3_dependency = build_process.dependency("sdl3", .{});
+    library_mod.addImport("sdl3", sdl3_dependency.module("sdl3"));
+
     build_process.installArtifact(library);
 
     const library_unit_tests = build_process.addTest(.{

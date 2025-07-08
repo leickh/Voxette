@@ -1,6 +1,7 @@
 .{
     .name = .Voxette,
     .version = "0.1.0",
+    .minimum_zig_version = "0.14.1",
     .fingerprint = 0xc4e2fbea109677b4,
     .dependencies = .{
         .Voxette3D = .{

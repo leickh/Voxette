@@ -1,5 +1,6 @@
 const std = @import("std");
+const Voxette3D = @import("Voxette3D");
 
 pub fn main() !void {
-    std.log.info("The build setup works!", .{});
+    try Voxette3D.Renderer.init();
 }

@@ -1,8 +1,18 @@
 .{
     .name = .Voxette3D,
     .version = "0.1.0",
+    .minimum_zig_version = "0.14.1",
     .fingerprint = 0x4afd0656fe0c5847,
-    .dependencies = .{},
+    .dependencies = .{
+        .sdl3 = .{
+            .url = "git+https://github.com/Gota7/zig-sdl3#b345607214e304eed38aa7fa9c0398c9a87d7a2e",
+            .hash = "sdl3-0.0.1-NmT1Qxn8HADSNEyMNBeGHUuy4J85gwpmewsgyyP0BfXr",
+        },
+        .zgl = .{
+            .url = "git+https://github.com/ziglibs/zgl#f616514733b81e5b00cc2d839c83c8e529ff5c4f",
+            .hash = "zgl-1.1.0-p_NpABvCCgCJPOcp11QHacU02b1rVdXkWR9Xvjv68y9R",
+        },
+    },
     .paths = .{
         "build.zig",
         "build.zig.zon",
